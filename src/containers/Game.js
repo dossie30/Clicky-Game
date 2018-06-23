@@ -169,7 +169,7 @@ class Game extends Component {
       score: 0
 
     });
-
+    window.scrollTo(0,0);
   }
 
 

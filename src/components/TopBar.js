@@ -28,20 +28,6 @@ const TopBar = props => (
 
   >
 
-
-
-    <Grid.Column width={5} textAlign={"center"}>
-
-      <Header color={"violet"} as={"h2"} style={styles} textAlign={"center"}>
-
-        Clicky Game
-
-      </Header>
-
-    </Grid.Column>
-
-
-
     <Grid.Column width={5} textAlign={"center"}>
 
       <Header color={"violet"} as={"h2"} style={styles} textAlign={"center"}>
@@ -51,6 +37,22 @@ const TopBar = props => (
       </Header>
 
     </Grid.Column>
+
+
+
+    <Grid.Column width={5} textAlign={"center"}>
+
+      <Header color={"violet"} as={"h2"} style={styles} textAlign={"center"}>
+
+        
+
+      </Header>
+
+    </Grid.Column>
+
+
+
+    
 
 
 
