@@ -8,7 +8,7 @@ import "./gameCard.css";
 
 const GameCards = props => (
 
-  <Grid.Row centered>
+  <Grid.Row color={"yellow"} centered>
 
     <Grid.Column width={12}>
 

@@ -196,4 +196,4 @@ class Game extends Component {
 
 
 
-export default Game;s
+export default Game;

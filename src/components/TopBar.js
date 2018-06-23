@@ -24,7 +24,7 @@ const TopBar = props => (
 
     verticalAlign={"middle"}
 
-    color={"purple"}
+    color={"teal"}
 
   >
 
@@ -32,7 +32,7 @@ const TopBar = props => (
 
     <Grid.Column width={5} textAlign={"center"}>
 
-      <Header inverted as={"h2"} style={styles} textAlign={"center"}>
+      <Header color={"violet"} as={"h2"} style={styles} textAlign={"center"}>
 
         Clicky Game
 
@@ -44,7 +44,7 @@ const TopBar = props => (
 
     <Grid.Column width={5} textAlign={"center"}>
 
-      <Header inverted as={"h2"} style={styles} textAlign={"center"}>
+      <Header color={"violet"} as={"h2"} style={styles} textAlign={"center"}>
 
         {props.score ? ("You Guessed Correctly!") : ("Click Image To Start Game")}
 
@@ -56,7 +56,7 @@ const TopBar = props => (
 
     <Grid.Column width={5} textAlign={"center"}>
 
-      <Header inverted as={"h2"} style={styles} textAlign={"center"}>
+      <Header color={"violet"} as={"h2"} style={styles} textAlign={"center"}>
 
         Current Score: {props.score} | Top Score: {props.topScore}
 
