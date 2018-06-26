@@ -141,6 +141,7 @@ class Game extends Component {
       score: newScore
 
     });
+    window.scrollTo(0,0);
 
   }
 
